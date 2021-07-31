@@ -4,6 +4,11 @@ public class homework2Barmin {
 
     public static void main(String[] args) {
 
+        System.out.println(sumMethod(10,5));
+        celNumber(3);
+        System.out.println(celNumberBool(0));
+        argNum ("любое слово" + 5);
+
     }
 //Задание № 1 Написать метод, принимающий на вход два целых числа и проверяющий, что их сумма лежит в пределах от 10 до 20 (включительно),
 // если да – вернуть true, в противном случае – false.
@@ -24,15 +29,15 @@ public class homework2Barmin {
     // Задание № 3 Написать метод, которому в качестве параметра передается целое число.
         // Метод должен вернуть true, если число отрицательное, и вернуть false если положительное
 
-        public static boolean checkSum(int a) {
+        public static boolean celNumberBool(int a) {
             return (a < 0);
         }
         //Задание № 4 Написать метод, которому в качестве аргументов передается строка и число,
         // метод должен отпечатать в консоль указанную строку, указанное количество раз
 
-        public static void (String str, int a) {
+        public static void argNum (String num, int a) {
             for (int i = 0; i < a; i++){
-                System.out.println (str);
+                System.out.println (num);
             }
                 // с заданием 5 еще не разобрался
         }
